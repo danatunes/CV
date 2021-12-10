@@ -27,14 +27,6 @@ const Container = styled.div`
 padding: 2rem;
 `
 
-const Contact = styled(NavLink)`
-color: ${props => props.theme.text};
-position: absolute;
-top: 2rem;
-right: calc(1rem + 2vw);
-text-decoration: none;
-z-index:1;
-`
 const BLOG = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
@@ -125,12 +117,11 @@ transition: height 0.5s ease, width 1s ease 0.5s;
 `
 
 
-const Main = ({setPlayMusicState}) => {
+const Main = () => {
 
     const [click, setClick] = useState(false);
 
     const handleClickToMusic = () => {
-        setPlayMusicState(true);
         setClick(!click);
     }
 
@@ -142,7 +133,7 @@ const Main = ({setPlayMusicState}) => {
             <LogoComponent theme={click ? 'dark' :'light'}/>
             <SocialIcons theme={click ? 'dark' :'light'} />
             <Center click={click}>
-                <img src={Fujin}  onClick={()=> handleClickToMusic()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+                <img alt={'sharingan'} src={Fujin}  onClick={()=> handleClickToMusic()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
                 <span>click here</span>
             </Center>
             <BLOG to="/work">

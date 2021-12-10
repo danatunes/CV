@@ -102,7 +102,7 @@ const WorkPage = () => {
          }
      </Main>
 <Rotate ref={yinyang}>
-    <img src={Fujin} width={80} height={80} fill={DarkTheme.text} />
+    <img alt={'sharingan'} src={Fujin} width={80} height={80} fill={DarkTheme.text} />
 </Rotate>
 
 <BigTitlte text="WORK" top='10%' right="20%" />

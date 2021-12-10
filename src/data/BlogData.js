@@ -1,5 +1,4 @@
 // blog data
-import makikiScreenShot from '../assets/Images/Снимок экрана 2021-12-10 в 09.41.00.png'
 
 export const Blogs = [
     {

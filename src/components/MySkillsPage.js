@@ -9,7 +9,6 @@ import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
-import Phone from '../assets/Images/phone-42-64.png';
 
 const Box = styled.div`
   background-color: ${props => props.theme.body};
