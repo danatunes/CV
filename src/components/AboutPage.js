@@ -72,7 +72,7 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a front-end developer and student located in Nur-Sultan. I love to create simple yet beautiful websites with great user experience.
+        I'm a fullstack developer and student located in Nur-Sultan. I love to create simple yet beautiful websites with great user experience.
 <br /> <br/>
             I'm interested in the whole front-end and back-end stack. I love trying new things and creating great projects. I love playing guitar and reading books.<br/> <br/>
 I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
